@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    background-color: hsl(216, 12%, 8%);
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    font-family: "Overpass", sans-serif;
+
+}
+
+p{
+    font: 15px;
+    color: hsl(216, 12%, 54%);
+    line-height: 1.5rem;
+}
+
+.rate,.thank-you{
+    background-color: hsl(213, 19%, 18%);
+    border-radius: 1.6rem;
+    max-width: 400px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn1{
+    border-radius: 50%;
+    background-color: hsl(212, 22%, 25%);
+    width: 3rem;
+    height: 3rem;
+    cursor:pointer;
+    outline:none;
+    border: none;
+    color: white;
+    margin-bottom: 1rem;
+    transition: 0.3s;
+    
+}
+
+.btn1:hover{
+    background-color: hsl(217, 12%, 63%);
+
+}
+
+.btn1:focus{
+    background-color: hsl(25, 97%, 53%) ;
+}
+
+.rate{
+    padding: 2rem 2rem 1rem 2rem;
+    margin-bottom: 2rem;
+}
+
+img{
+    max-width: 100%;
+}
+
+
+.rate img{
+    background-color: hsl(212, 22%, 25%);
+    border-radius: 50%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    
+   
+}
+
+h1{
+    color: #fff;
+}
+
+.rate p{
+    margin-bottom: 1.5rem;
+}
+
+.sub-btn {
+    background-color: hsl(25, 97%, 53%);
+    border: none;
+    outline:none;
+    padding:1rem;
+    border-radius: 2rem;
+    width: 100%;
+    color: #fff;
+    margin: 1rem 0 0.5rem 0;
+    cursor: pointer;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+    transition:0.3s;
+
+}
+
+.sub-btn:hover{
+    background-color: #fff;
+    color:hsl(25, 97%, 53%)
+
+}
+
+/*************** Thank you state**********/
+
+.thank-you{
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    
+
+
+}
+
+.hide{
+    display: none;
+}
+
+.thank-you img{
+    display: block;
+    margin:0 auto;
+
+}
+
+
+.rate-count{
+    border-radius: 1.6rem;
+    background-color: hsl(212, 22%, 25%);
+    color: hsl(25, 97%, 53%);
+    
+    padding: 0.3rem 0.8rem;
+    margin:1.5rem 0;
+    
+    
+}
+
+.thank-you h2{
+    margin-bottom: 0.5rem;
+    color:#fff;
+}
+
+
+
+
+
+
+
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin-top: 2rem;
+    color:#fff
+    
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
